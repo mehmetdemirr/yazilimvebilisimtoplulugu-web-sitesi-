@@ -1,0 +1,250 @@
+/*#ana{
+
+    
+}*/
+
+hr{
+    border-color:#555657;
+}
+nav{
+    border-bottom: 3px solid #a9b6af;
+    margin-bottom: 7px;
+    margin-top: 7px;
+}
+
+#logo{
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-right: 18px;
+    margin-left: 7px;
+
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    /*background-color: #27ae60;*/
+    color:white;
+    text-decoration:none; 
+    width: 120px;
+    height: 40px;
+    font-size: 130%;
+    color: rgb(17, 14, 14);
+    font-weight: bold;
+}
+
+li a:hover{
+    /*background-color:#23834c; */
+    border-bottom: 3px solid #424196;
+    color: rgb(19, 22, 221);
+    background-color: #edebff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.aktif {
+    /*background-color: #6b8364;   Hangi sayfadaysam o linki koyu yapıyorum*/
+    border-bottom: 3px solid #424196;
+    color: rgb(19, 22, 221);
+    background-color: #edebff;
+    border-radius: 5px;
+}
+
+ul li ul {
+    /*background-color: #27ae60;*/
+    display:none;
+    position:absolute;
+    width:120px;
+}
+
+ul li ul a{
+    font-size: 130%;
+}
+
+ul li:hover ul{
+    display:block;
+}
+
+li ul li {
+    display:block;
+}
+
+.nav-arama{
+    width: 80px;
+    height: 30px;
+}
+
+.sponsorlar{
+    background-color: rgb(37, 36, 36);
+    width: 100%;
+    height: 30px;
+    color: white;
+    padding-bottom: 7px;
+}
+
+.sponsorlar>a{
+    text-decoration: none;
+    color:white;    
+    padding-bottom: 5px;
+    padding-left: 25px;
+    list-style-type: disc;    
+}
+
+.emoji{
+    padding-top: 1px;
+    width: 25px;
+    height: 25px;
+}
+
+#nav-emoji{
+    padding-left: 300px;
+    text-align: center;
+}
+
+#ust-yan{
+    float:right;
+    width: 55%;
+    height: 400px;
+    margin-right: 30px;
+    margin-top: 0px;
+}
+
+.yan{
+    float: left;
+    width: 47%;
+    height: 210px;
+    text-align: center;
+    font-size: 27px;
+    padding-top:80px;
+    /*background-color: rgb(207, 211, 211);*/
+    margin-bottom: 15px;
+    margin-left: 15px;
+    border-radius: 10px;
+
+    background: #2e2e2e;
+    animation: color-wave 5s infinite;
+}
+
+@keyframes color-wave {
+    0% {
+        background: #ffd65b;
+    }
+
+    25% {
+        background: #d4ff56;
+    }
+
+    50% {
+        background: #5fff56;
+    }
+
+    75% {
+        background: #56ffe8;
+    }
+
+    100% {
+        background: #568eff;
+    }
+}
+
+.sliderweb{
+    width: 500px;
+    height: 400px;
+    margin-left: 40px;
+    display: inline-block;
+}
+
+section{
+    margin:-0px 20px;
+}
+
+#ara{
+    visibility: hidden;
+    margin-top: 0px;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    color: rgb(56, 39, 117);
+}
+
+
+footer{
+    width: 100%;
+    height: 140px;
+    background-color: #101116;
+    padding-top: 10px;   
+    margin-bottom: 0px; 
+}
+
+footer a{
+    color: #A9AAAD;
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: none;
+    color: #424196;
+}
+
+.sosyalmedya{
+    text-align: center;
+    width: 210px;
+}
+
+.hesap{
+    float: left;
+    width: 33px;
+    height: 33px;
+    margin-left: 8px;
+    border: 0.5px solid rgb(51, 50, 50);
+    border-radius: 10px;
+    background-color: #555657;
+}
+
+.hesap:hover{
+    background-color: rgb(141, 136, 136);
+}
+
+body {
+    margin:0;
+}
+
+#navbar{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    opacity: 1;
+    background-color:white;
+}
+
+.content {
+    margin-top:100px;
+    height: 1500px; 
+    z-index: 1;
+}
+
+.alan{
+    padding: 10px;
+    border:1px solid #797881;
+    border-radius: 7px;
+    background-color: #f1f1f3;
+    width: 15%;
+    height: 350px;
+    display: inline;
+    float: left;
+    margin-left: 15px;
+    box-shadow: 2px 2px 3px #000;
+}

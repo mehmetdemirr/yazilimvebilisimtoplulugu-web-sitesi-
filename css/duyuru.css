@@ -1,0 +1,13 @@
+.kutu-duyuru{
+    float: left;
+    width: 30%;
+    height: 12%;
+    margin: 18px;
+    padding: 10px;
+    background-color: rgb(222, 223, 226);
+    border-radius: 6px;
+}
+
+.kutu-duyuru:hover{
+    background-color: rgb(137, 137, 139);
+}
